@@ -13,5 +13,14 @@ if (cipolla>2) { //comando if/else
     zucchero=false;
 } else {
     cipolla++;
-} document.write(cipolla); //stampa cipolla dopo averla incrementata di 1 con if/else
+} document.write(cipolla + "<br>"); //stampa cipolla dopo averla incrementata di 1 con if/else
 /*pausa*/
+for (/*let*/i=0; i<100; i++){
+    lattuga++;
+} //ciclo for che incrementa 100 volte lattuga
+while (lattuga < 101){
+    cipolla++;
+    lattuga++;
+} //ciclo while ('fai quella roba fintanto che' in questo caso lattuga < 101 quindi incrementerà una volta cipolla e lattuga)
+document.write(cipolla + "<br>"); 
+let aglio = 1 + 3;
